@@ -1,0 +1,22 @@
+.features {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        .box {
+            width: 25%;
+            padding: 100px 0 100px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            h2 {
+                margin-top: 40px;
+            }
+            p {
+                margin-top: 30px;
+                font-size: 18px;
+            }
+        }
+    }
+}
