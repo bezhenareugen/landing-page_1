@@ -154,6 +154,9 @@ body {
           display: flex;
           justify-content: space-between;
           align-items: center; }
+          body .info-area .container .testimonials .g-i-t-img a:hover {
+            opacity: 0.3;
+            background: #2ecc71; }
       body .info-area .container .get-in-touch {
         margin-top: 60px;
         display: flex;
