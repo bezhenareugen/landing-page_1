@@ -133,9 +133,10 @@ body {
       display: flex;
       display: flex;
       flex-direction: column;
-      justify-content: center; }
+      justify-content: center;
+      padding-top: 60px;
+      padding-bottom: 60px; }
       body .info-area .container .testimonials {
-        margin-top: 60px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -143,12 +144,16 @@ body {
         text-align: center; }
         body .info-area .container .testimonials p {
           color: #979797;
-          padding: 0 170px 0 170px;
+          padding: 0 350px 0 350px;
           line-height: 25px; }
         body .info-area .container .testimonials h3 {
           margin-top: 20px; }
-        body .info-area .container .testimonials img {
-          margin-top: 30px; }
+        body .info-area .container .testimonials .g-i-t-img {
+          margin-top: 30px;
+          width: 75%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
       body .info-area .container .get-in-touch {
         margin-top: 60px;
         display: flex;
@@ -161,9 +166,9 @@ body {
           color: #979797; }
         body .info-area .container .get-in-touch .get-in-t-icons {
           margin-top: 25px;
-          width: 25%;
+          width: 20%;
           display: flex;
-          justify-content: space-between;
+          justify-content: space-around;
           align-items: center; }
           body .info-area .container .get-in-touch .get-in-t-icons a {
             width: 35px;
@@ -178,4 +183,21 @@ body {
             align-items: center; }
           body .info-area .container .get-in-touch .get-in-t-icons a:hover {
             background: #2ecc71;
-            transition-delay: 10ms; }
+            transition-delay: 10ms;
+            color: #ffffff; }
+  body .footer {
+    background: #e3e3e3; }
+    body .footer .container {
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+      padding-bottom: 50px; }
+      body .footer .container ul {
+        display: flex;
+        justify-content: space-around;
+        width: 50%; }
+        body .footer .container ul a {
+          text-decoration: none; }
+          body .footer .container ul a li {
+            list-style: none;
+            color: #848484; }
