@@ -1,0 +1,63 @@
+.info-area {
+    background: #ffffff;
+    .container {
+        display: flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .testimonials {
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            p {
+                color: #979797;
+                padding: 0 170px 0 170px;
+                line-height: 25px;
+            }
+            h3 {
+                margin-top: 20px;
+            }
+            img {
+                margin-top: 30px;
+            }
+        }
+        .get-in-touch {
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            p {
+                margin-top: 20px;
+                color: #979797;
+            }
+            .get-in-t-icons {
+                margin-top: 25px;
+                width: 25%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                a {
+                    width: 35px;
+                    height: 35px;
+                    font-size: 9px;
+                    border-radius: 50%;
+                    text-decoration: none;
+                    color: #ffffff;
+                    background: #d4d4d4;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                a:hover {
+                    background: #2ecc71;
+                    transition-delay: 10ms;
+                }
+            }
+        }
+    }
+}
